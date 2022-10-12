@@ -1,0 +1,368 @@
+* {
+    padding: 0%;
+    margin: 0%;
+}
+
+/* nav section */
+.flexor-nav {
+    display: flex;
+    margin: 0 50px;
+}
+
+.flexor-nav a {
+    color: black;
+}
+
+.flexor-nav nav {
+    justify-content: flex-end;
+}
+
+.nav-elements:hover {
+    color: #ff5821;
+}
+
+/* nav section end */
+/* welcome section */
+.flexor-welcome {
+    color: white;
+    padding: 200px;
+    /* height: 80vh; */
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/images/hero-bg.jpg);
+    background-size: cover;
+}
+
+.flexor-welcome .get-started-button {
+    font-size: smaller;
+    background-color: #524643;
+    border-radius: 28px;
+    color: white;
+    font-size: 15px;
+    padding: 8px 35px;
+    margin-top: 10px;
+    border: 0;
+}
+
+
+.flexor-welcome .get-started-arrow-btn {
+    background: none;
+    border: none;
+}
+
+.flexor-welcome img {
+    width: 56px;
+    background-color: #ff5821;
+    border-radius: 28px;
+    position: relative;
+    left: 35px;
+}
+
+/* welcome section end */
+/* intro section */
+.flexor-intro {
+    position: relative;
+    z-index: 3;
+    display: flex;
+    margin: 0%;
+    bottom: 150px;
+}
+
+.flexor-intro .logo-img path {
+    fill: #ff5821;
+}
+
+
+.why-content-section {
+    padding: 70px;
+    background: #ff5821;
+    border-radius: 4px;
+    color: #fff;
+}
+
+.sub-content-section {
+    align-items: center;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.sub-content {
+    background: white;
+    border-radius: 10px;
+    color: black;
+    padding-top: 100px;
+    margin: 5px;
+    height: 50vh;
+    width: 30%;
+    box-shadow: 6px 12px 37px -17px rgba(0, 0, 0, 0.75);
+}
+
+.sub-content img {
+    width: 30px;
+    position: relative;
+    bottom: 40px;
+}
+
+.sub-content p {
+    font-size: small;
+    font-weight: lighter;
+}
+
+.flexor-intro button {
+    background-color: #ff794d;
+    padding: 10px;
+    color: white;
+    border: none;
+    border-radius: 60px;
+    position: relative;
+    left: 25%;
+}
+
+/* intro section end */
+/* about section */
+
+.flexor-about {
+    padding: 50px;
+    background-color: #fff9f7;
+}
+
+.flexor-about .icon-box img {
+    width: 50px;
+    fill: #ff5821;
+}
+
+.flexor-about img {
+    width: 62px;
+    border: #ffcbba 2px solid;
+    border-radius: 31px;
+    padding: 8px;
+    background-color: white;
+}
+
+.flexor-about h5,
+p {
+    font-weight: lighter;
+}
+
+.flexor-about h4 {
+    font-size: 20px;
+}
+
+.flexor-about .about-video {
+    background: url(../resources/images/about-img.jpg);
+    background-size: cover;
+}
+
+.flexor-about .abt-icon {
+    position: relative;
+    left: 19px;
+    top: 19px;
+}
+
+.flexor-about .video-btn {
+    position: relative;
+    top: 50%;
+    left: 40%;
+    width: 100px;
+    height: 100px;
+    background: radial-gradient(#ff5821 50%, rgba(109, 69, 55, 0.4) 52%);
+    border-radius: 50%;
+}
+
+/* about section end */
+.flexor-brands {
+    padding: 30px;
+}
+
+.flexor-brands .swiper-pagination {
+    margin-top: 20px;
+}
+
+.slide-img img {
+    width: 100px;
+    margin: 0%;
+    opacity: 0.7;
+    filter: grayscale();
+
+}
+
+.flexor-brands .swiper-pagination-bullet {
+    background-color: #ff5821;
+}
+
+/* brands section end */
+/* services section */
+.flexor-services {
+    background-color: #fff9f7;
+}
+
+.flexor-services-container {
+    margin-top: 30px;
+}
+
+.service-contents {
+    width: 30%;
+    background-color: white;
+    box-shadow: 6px 12px 37px -17px rgba(0, 0, 0, 0.75);
+}
+
+.service-contents img {
+    padding: 10px;
+    width: 50px;
+    border: 1px #ff5821 solid;
+    border-radius: 25px;
+    background-color: #ff5821;
+    position: relative;
+    bottom: 20px;
+}
+
+/* end service section */
+/* missions section */
+.flexor-missions {
+    margin-top: 100px;
+}
+
+.flexor-missions .mission-img {
+    background-size: cover;
+}
+
+.flexor-missions .card {
+    border: 0;
+    padding: 159px 20px 30px 20px;
+    width: 100%;
+    background-size: cover;
+}
+
+.card-content {
+    background: white;
+    opacity: 0.8;
+    padding: 20px;
+    margin: 5px
+}
+
+/* missions section end */
+/* organizers section */
+.flexor-organizers-section {
+    background-color: black;
+    margin-top: 100px;
+
+}
+
+.flexor-organizers {
+    padding: 100px;
+    color: white;
+    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(../resources/images/testimonials-bg.jpg) no-repeat;
+    background-size: cover;
+
+}
+
+.organizer-content img {
+    width: 100px;
+    border-radius: 50%;
+}
+
+.flexor-organizers .swiper-pagination2 {
+    display: flex;
+    justify-content: center;
+}
+
+.flexor-organizers .swiper-pagination2 .swiper-pagination-bullet {
+    background-color: #ff5821;
+}
+
+/* organizer section end */
+/* portfolio section */
+
+.flexor-portfolio {
+    margin-top: 60px;
+    padding: 70px;
+}
+
+.flexor-portfolio li:hover {
+    background-color: #fff1ed;
+    color: #ff5821;
+    border-radius: 50px;
+}
+
+.portfolio-images img {
+    padding: 10px;
+}
+
+/* portfolio section end */
+
+/* team section */
+.flexor-team {
+    padding: 50px;
+    background-color: #fff9f7;
+    ;
+}
+
+.flexor-team p {
+    font-weight: lighter;
+    font-size: medium;
+}
+
+.flexor-team .card {
+    box-shadow: 6px 12px 37px -17px rgba(0, 0, 0, 0.75);
+}
+
+/* team section end */
+/* contact section */
+.flexor-contact {
+    padding: 50px;
+}
+
+.flexor-contact .contact-info-section {
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 6px 12px 37px -17px rgba(0, 0, 0, 0.75);
+}
+
+.flexor-contact .contact-info-section img {
+    height: 50px;
+}
+
+.flexor-contact .contact-section-logo {
+    width: 50px;
+    padding: 10px;
+    border: grey 1px solid;
+    border-radius: 25px;
+    background-color: #ff5821;
+}
+
+.flexor-contact button {
+    color: white;
+    background-color: #ff5821;
+    padding: 5px;
+}
+
+.flexor-contact .send-message-section {
+    padding: 20px;
+    box-shadow: 6px 12px 37px -17px rgba(0, 0, 0, 0.75);
+}
+
+/* contact section end */
+/* footer section */
+.flexor-footer {
+    padding: 30px;
+    background-color: #fff9f7;
+}
+
+.flexor-footer button {
+    background-color: #ff5821;
+    color: white;
+    padding: 5px;
+    border: none;
+    border-radius: 25px;
+    /* position: relative; */
+    float: inline-end;
+}
+
+.flexor-footer ul {
+    padding: 10px;
+    margin: 10px;
+    list-style-type: '> ';
+}
+
+/* footer end */
